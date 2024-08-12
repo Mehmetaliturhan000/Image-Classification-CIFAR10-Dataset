@@ -13,14 +13,28 @@ The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6
 To run this project, you need to have Python and the following libraries installed:
 
 TensorFlow
+
 Keras
+
 NumPy
-Matplotlib You can install these dependencies using pip: pip install tensorflow keras numpy matplotlib
+
+Matplotlib 
+
+
+You can install these dependencies using pip: pip install tensorflow keras numpy matplotlib
+
 Model Architecture
+
 CNN Model
+
 Convolutional layers with ReLU activation
+
 ResNet50 Model
+
 Fine-tuned ResNet50 pre-trained on ImageNet
+
 Global average pooling
+
 Results
-The models were evaluated using accuracy and confusion matrices. The CNN model achieved an accuracy of [36%], while the ResNet50 model achieved an accuracy of [94%].
+
+The models were evaluated using accuracy and confusion matrices. The CNN model achieved an accuracy of [80%], while the ResNet50 model achieved an accuracy of [94%].
