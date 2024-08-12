@@ -23,9 +23,9 @@ Matplotlib
 
 You can install these dependencies using pip: pip install tensorflow keras numpy matplotlib
 
-Model Architecture
+# Model Architecture
 
-CNN Model
+There are two models in this repository,first one is a custom CNN model built from ground up, second model uses a pretrained ResNet50 model (transfer learning)
 
 Convolutional layers with ReLU activation
 
